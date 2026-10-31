@@ -19,13 +19,24 @@ All the tools target the same job: you have a raw scan, and you need geometry yo
 | **[ThreadPharmacy](threadpharmacy/)** | Click a thread on a scan, get its axis and size, and replace it with a clean ISO thread aligned to a datum face. | Next release |
 
 <p align="center">
-  <a href="meshpharmacy/"><img src="meshpharmacy/images/interior-walls.png" height="210" alt="MeshPharmacy: interior shells removed"></a>
-  <a href="threadpharmacy/"><img src="threadpharmacy/images/threadpharmacy-concept.png" height="210" alt="ThreadPharmacy concept"></a>
+  <a href="meshpharmacy/"><img src="meshpharmacy/images/interior-walls.png" width="100%" alt="MeshPharmacy: interior shells removed"></a>
+  <br><sub>MeshPharmacy · section view of a scan: hidden interior shells (orange) removed.</sub>
 </p>
 
 <p align="center">
   <a href="meshpharmacy/"><img src="meshpharmacy/images/optimize-wire.png" width="100%" alt="MeshPharmacy: raw scan, reduced mesh and quad mesh at the same zoom"></a>
   <br><sub>Same spot on a scanned part: raw scan (3.19M triangles) → Resize to target (300k) → Quads (14.5k).</sub>
+</p>
+
+<p align="center">
+  <a href="meshpharmacy/"><img src="meshpharmacy/images/reduce.png" width="100%" alt="Same part at 3.18M, 900k, 300k and 100k triangles"></a>
+  <a href="meshpharmacy/"><img src="meshpharmacy/images/reduce-table.png" width="100%" alt="Reduction results: triangles, file size, deviation, volume change"></a>
+  <br><sub>Fewer triangles, same part: 159 MB → 15 MB at 300k, volume change about 0.001 %.</sub>
+</p>
+
+<p align="center">
+  <a href="threadpharmacy/"><img src="threadpharmacy/images/threadpharmacy-concept.png" width="100%" alt="ThreadPharmacy concept"></a>
+  <br><sub>ThreadPharmacy · scanned thread rebuilt as a clean ISO thread (concept visualization).</sub>
 </p>
 
 More tools for the same pipeline (alignment, measurement, scan-to-CAD helpers) will be added here as they are released.
