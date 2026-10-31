@@ -19,8 +19,8 @@ All the tools target the same job: you have a raw scan, and you need geometry yo
 | **[ThreadPharmacy](threadpharmacy/)** | Click a thread on a scan, get its axis and size, and replace it with a clean ISO thread aligned to a datum face. | Next release |
 
 <p align="center">
-  <a href="meshpharmacy/"><img src="meshpharmacy/images/interior-walls.png" width="49%" alt="MeshPharmacy: interior shells removed"></a>
-  <a href="threadpharmacy/"><img src="threadpharmacy/images/threadpharmacy-concept.png" width="49%" alt="ThreadPharmacy concept"></a>
+  <a href="meshpharmacy/"><img src="meshpharmacy/images/interior-walls.png" height="210" alt="MeshPharmacy: interior shells removed"></a>
+  <a href="threadpharmacy/"><img src="threadpharmacy/images/threadpharmacy-concept.png" height="210" alt="ThreadPharmacy concept"></a>
 </p>
 
 More tools for the same pipeline (alignment, measurement, scan-to-CAD helpers) will be added here as they are released.
@@ -49,9 +49,11 @@ Each add-on does one job well and leaves your original object untouched. They fo
 
 **Mirosław Pałucki** · [LinkedIn](https://www.linkedin.com/in/mirosław-pałucki-7948ba35)
 
-I work in engineering in the automotive and industrial sector, with a background in business analysis and data. A lot of my day-to-day work involves industrial 3D scanning (structured light, laser and NIR scanners), reverse engineering and FDM 3D printing.
+Business analyst with 17+ years of international experience in aerospace, automotive and battery manufacturing, working where engineering, quality and IT meet. My foundation is industrial metrology, quality management and precision inspection: SPC, MSA, ISO 9001, ISO 17025 and NADCAP on one side, SQL, Python, Power BI and Tableau on the other.
 
-These add-ons started as tools I needed myself: raw scans that were too heavy, full of hidden junk, or had threads too blurred to use. I build them the way I would want an engineering tool to behave. Predictable, reversible, and honest about what it changed.
+Next to that I work on reverse engineering, 3D scanning (structured light, laser, NIR) and physical-to-digital workflows. I build tools and add-ons for Blender and Autodesk Fusion that close the gap between raw scan data and production-ready CAD geometry: mesh processing, surface reconstruction and automated data preparation.
+
+These add-ons started as tools I needed myself: raw scans that were too heavy, full of hidden junk, or had threads too blurred to use. I build them the way I expect an engineering tool to behave. Predictable, reversible, and honest about what it changed.
 
 ---
 
