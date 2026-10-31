@@ -1,0 +1,12 @@
+# This repository holds documentation only. Keep add-on code and scans out.
+*.py
+*.zip
+*.blend
+*.blend1
+*.stl
+*.obj
+*.ply
+__pycache__/
+.DS_Store
+Thumbs.db
+desktop.ini

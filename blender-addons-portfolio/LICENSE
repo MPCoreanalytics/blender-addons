@@ -1,0 +1,19 @@
+Copyright (c) 2026 Mirosław Pałucki
+
+The documentation, text and images in this repository are licensed under the
+Creative Commons Attribution-NonCommercial-NoDerivatives 4.0 International
+License (CC BY-NC-ND 4.0).
+
+You may share this material in any medium or format, provided that you:
+  - give appropriate credit to Mirosław Pałucki and link to this repository,
+  - do not use it for commercial purposes,
+  - do not distribute modified versions.
+
+Full legal text: https://creativecommons.org/licenses/by-nc-nd/4.0/legalcode
+
+This repository contains no add-on source code. The Blender add-ons described
+here (MeshPharmacy, ThreadPharmacy and others) are distributed separately
+through Superhive under the GNU General Public License, version 3 or later
+(GPL-3.0-or-later). A copy of the GPL is included with every add-on package.
+
+"MeshPharmacy" and "ThreadPharmacy" are product names used by Mirosław Pałucki.
