@@ -12,7 +12,7 @@ ThreadPharmacy replaces the scanned thread with a mathematically correct one, on
 
 | | |
 |---|---|
-| **Status** | Coming to Superhive |
+| **Status** | Next release |
 | **Blender** | 4.2 LTS and newer |
 | **Family** | Sibling of [MeshPharmacy](../meshpharmacy/). Clean the scan first, then rebuild the threads |
 

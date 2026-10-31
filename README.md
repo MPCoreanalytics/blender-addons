@@ -5,7 +5,7 @@
 # Blender add-ons for 3D scans, meshes and reverse engineering
 
 This repository is the public home of my Blender add-ons. It holds the product pages, user guides and release notes.
-The add-ons themselves are sold through [Superhive (formerly Blender Market)](https://superhivemarket.com). The source code ships with every purchase under the GPL, as Blender add-ons require.
+The add-ons are distributed through [Superhive (formerly Blender Market)](https://superhivemarket.com). The source code ships with every purchase under the GPL, as Blender add-ons require.
 
 All the tools target the same job: you have a raw scan, and you need geometry you can **3D print, measure, boolean or model on**, without leaving Blender.
 
@@ -15,8 +15,8 @@ All the tools target the same job: you have a raw scan, and you need geometry yo
 
 | Add-on | What it does | Status |
 |---|---|---|
-| **[MeshPharmacy](meshpharmacy/)** | Cleans, repairs, reduces and quad-remeshes dense scan meshes. Removes hidden interior shells, fills holes, reports whether the result is watertight. Always works on a copy. | v1.3 · Superhive listing soon |
-| **[ThreadPharmacy](threadpharmacy/)** | Click a thread on a scan, get its axis and size, and replace it with a clean ISO thread aligned to a datum face. | Coming to Superhive |
+| **[MeshPharmacy](meshpharmacy/)** | Cleans, repairs, reduces and quad-remeshes dense scan meshes. Removes hidden interior shells, fills holes, reports whether the result is watertight. Always works on a copy. | v1.3 |
+| **[ThreadPharmacy](threadpharmacy/)** | Click a thread on a scan, get its axis and size, and replace it with a clean ISO thread aligned to a datum face. | Next release |
 
 <p align="center">
   <a href="meshpharmacy/"><img src="meshpharmacy/images/interior-walls.png" width="49%" alt="MeshPharmacy: interior shells removed"></a>

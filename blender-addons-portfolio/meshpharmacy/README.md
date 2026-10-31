@@ -16,7 +16,6 @@ Raw scans are heavy and messy: millions of triangles, duplicate vertices, floati
 | **Blender** | 4.2 LTS and newer |
 | **Dependencies** | None. Uses only modules bundled with Blender |
 | **License** | GPL-3.0-or-later |
-| **Store** | Superhive (link will be added at launch) |
 
 ---
 
