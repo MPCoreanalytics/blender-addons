@@ -23,6 +23,11 @@ All the tools target the same job: you have a raw scan, and you need geometry yo
   <a href="threadpharmacy/"><img src="threadpharmacy/images/threadpharmacy-concept.png" height="210" alt="ThreadPharmacy concept"></a>
 </p>
 
+<p align="center">
+  <a href="meshpharmacy/"><img src="meshpharmacy/images/optimize-wire.png" width="100%" alt="MeshPharmacy: raw scan, reduced mesh and quad mesh at the same zoom"></a>
+  <br><sub>Same spot on a scanned part: raw scan (3.19M triangles) → Resize to target (300k) → Quads (14.5k).</sub>
+</p>
+
 More tools for the same pipeline (alignment, measurement, scan-to-CAD helpers) will be added here as they are released.
 
 ---
