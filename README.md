@@ -15,7 +15,7 @@ All the tools target the same job: you have a raw scan, and you need geometry yo
 
 | Add-on | What it does | Status |
 |---|---|---|
-| **[MeshPharmacy](meshpharmacy/)** | Cleans, repairs, reduces and quad-remeshes dense scan meshes. Removes hidden interior shells, fills holes, reports whether the result is watertight. Always works on a copy. | v1.3 |
+| **[MeshPharmacy](meshpharmacy/)** | Cleans, repairs, reduces and quad-remeshes dense scan meshes. Removes hidden interior shells, fills holes, reports whether the result is watertight. Always works on a copy. | v1.4 |
 | **[ThreadPharmacy](threadpharmacy/)** | Click a thread on a scan, get its axis and size, and replace it with a clean ISO thread aligned to a datum face. | Next release |
 
 <p align="center">

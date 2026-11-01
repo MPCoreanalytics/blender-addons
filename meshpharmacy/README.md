@@ -12,7 +12,7 @@ Raw scans are heavy and messy: millions of triangles, duplicate vertices, floati
 
 | | |
 |---|---|
-| **Version** | 1.3.0 |
+| **Version** | 1.4.0 |
 | **Blender** | 4.2 LTS and newer |
 | **Dependencies** | None. Uses only modules bundled with Blender |
 | **License** | GPL-3.0-or-later |
@@ -50,7 +50,7 @@ MeshPharmacy ray-casts every shell against the main body on three axes and remov
 
 <img src="images/fill-holes.png" alt="Fill holes before and after" width="100%">
 
-- **Fill holes** up to a chosen size: 0.5%, 2%, 5% of the object size, or all.
+- **Fill holes** up to a chosen size: 0.5%, 2%, 5% of the object size, or all. Dangling slivers that block a watertight result are removed first, and patches that would break the topology are rejected or cleaned up.
 - **Non-manifold repair:** removes faces on edges shared by three or more faces and around bow-tie vertices, with a 3% safety limit.
 - **Normals outward:** every face points out, as slicers expect.
 
@@ -79,9 +79,9 @@ Every run ends with a report in the **History** panel:
 
 <img src="images/smooth.png" alt="Smoothing: off, low, medium, high" width="100%">
 
-Taubin smoothing (Low, Medium, High) removes scanner noise **without shrinking the part**: every shrink step is followed by an inflate step. If smoothing ever changes the volume by more than 2%, the report warns you.
+Taubin smoothing (Low, Medium, High) removes scanner noise **without shrinking the part**: every shrink step is followed by an inflate step. The number of passes adapts to mesh density, so a level looks the same on a 100k and a 2M mesh. If smoothing ever changes the volume by more than 2%, the report warns you.
 
-*Fine noise was added to this example on purpose, to make the difference visible.*
+*Real scan surface at 300k triangles, nothing added. Volume change: Low +0.007%, Medium +0.013%, High +0.032%.*
 
 ---
 
@@ -115,6 +115,7 @@ Taubin smoothing (Low, Medium, High) removes scanner noise **without shrinking t
 
 ## Version history
 
+- **1.4.0** · Stronger, density-aware Smooth levels; Fill holes finishes partly closed holes and no longer breaks topology; unit-safe deviation report.
 - **1.3.0** · Collapsible option groups, cleaner History panel, Restore visibility now restores exactly what a run hid.
 - **1.2.0** · Safer visibility handling, distance-based limit for the interior-wall test.
 - **1.1.0** · Per-step ▶ buttons, Run all selected, smooth strength, History panel, background processing.
