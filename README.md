@@ -16,7 +16,7 @@ All the tools target the same job: you have a raw scan, and you need geometry yo
 | Add-on | What it does | Status |
 |---|---|---|
 | **[MeshPharmacy](meshpharmacy/)** | Cleans, repairs, reduces and quad-remeshes dense scan meshes. Removes hidden interior shells, fills holes, reports whether the result is watertight. Always works on a copy. | v1.4 |
-| **[ThreadPharmacy](threadpharmacy/)** | Click a thread on a scan, get its axis and size, and replace it with a clean ISO thread aligned to a datum face. | Next release |
+| **[ThreadPharmacy](threadpharmacy/)** | Finds threads on a scan automatically (or from your clicks), measures axis, size and pitch, and rebuilds them as clean ISO, inch, hydraulic or pipe threads. Print-fit option for 3D printing. Always works on a copy. | v1.0.2 |
 
 <p align="center">
   <a href="meshpharmacy/"><img src="meshpharmacy/images/interior-walls.png" width="100%" alt="MeshPharmacy: interior shells removed"></a>
@@ -35,8 +35,13 @@ All the tools target the same job: you have a raw scan, and you need geometry yo
 </p>
 
 <p align="center">
-  <a href="threadpharmacy/"><img src="threadpharmacy/images/threadpharmacy-concept.png" width="100%" alt="ThreadPharmacy concept"></a>
-  <br><sub>ThreadPharmacy · scanned thread rebuilt as a clean ISO thread (concept visualization).</sub>
+  <a href="threadpharmacy/"><img src="threadpharmacy/images/threadpharmacy-before-after.png" width="100%" alt="ThreadPharmacy: scanned thread end and the rebuilt thread"></a>
+  <br><sub>ThreadPharmacy · the scanned thread end (left) rebuilt as a clean thread (right), measured on the scan.</sub>
+</p>
+
+<p align="center">
+  <a href="threadpharmacy/"><img src="threadpharmacy/images/threadpharmacy-auto-search.png" width="100%" alt="ThreadPharmacy auto search: 11 threads found on a 7.7M-triangle scan"></a>
+  <br><sub>ThreadPharmacy · automatic search: 11 threads found on a 7.7M-triangle scan, each with a confidence level.</sub>
 </p>
 
 More tools for the same pipeline (alignment, measurement, scan-to-CAD helpers) will be added here as they are released.
