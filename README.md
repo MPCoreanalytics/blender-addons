@@ -70,7 +70,7 @@ Each add-on does one job well and leaves your original object untouched. They fo
 
 **Mirosław Pałucki** · [LinkedIn](https://www.linkedin.com/in/mirosław-pałucki-7948ba35)
 
-Business analyst with 17+ years of international experience in aerospace, automotive and battery manufacturing, working where engineering, quality and IT meet. My foundation is industrial metrology, quality management and precision inspection: SPC, MSA, ISO 9001, ISO 17025 and NADCAP on one side, SQL, Python, Power BI and Tableau on the other.
+Digitalization specialist with 17+ years of international experience in aerospace, automotive and battery manufacturing, working where engineering, quality and IT meet. My foundation is industrial metrology, quality management and precision inspection: SPC, MSA, ISO 9001, ISO 17025 and NADCAP on one side, SQL, Python, Power BI and Tableau on the other.
 
 Next to that I work on reverse engineering, 3D scanning (structured light, laser, NIR) and physical-to-digital workflows. I build tools and add-ons for Blender and Autodesk Fusion that close the gap between raw scan data and production-ready CAD geometry: mesh processing, surface reconstruction and automated data preparation.
 
