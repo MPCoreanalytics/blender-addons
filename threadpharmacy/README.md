@@ -8,12 +8,12 @@ Threads are the weakest spot in almost every scan. Crests come out rounded, the 
 
 ThreadPharmacy finds the thread on the scan, measures its axis, diameter and pitch, and replaces it with a mathematically correct one, on the right axis, in a copy of the scan. Your original is never edited.
 
-**[Download the product guide (PDF, 7 pages)](docs/ThreadPharmacy_Product_Guide.pdf)**
+**[Download the product guide (PDF, 8 pages)](docs/ThreadPharmacy_Product_Guide.pdf)**
 
 | | |
 |---|---|
-| **Version** | 1.0.3 |
-| **Blender** | 4.2 LTS and newer (developed and tested on Windows with Blender 5.1; Linux and macOS are not tested) |
+| **Version** | 1.0.4 |
+| **Blender** | 4.2 LTS and newer (developed and tested on Windows with Blender 5.1 and 5.2 LTS; Linux and macOS are not tested) |
 | **Dependencies** | None. Uses only modules bundled with Blender |
 | **License** | GPL-3.0-or-later |
 | **Family** | Sibling of [MeshPharmacy](../meshpharmacy/). Clean the scan first, then rebuild the threads |
