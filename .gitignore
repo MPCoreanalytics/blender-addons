@@ -10,3 +10,6 @@ __pycache__/
 .DS_Store
 Thumbs.db
 desktop.ini
+
+# Private working area (source, releases, tests, scans, archives) - never published
+products/
