@@ -12,7 +12,7 @@ ThreadPharmacy finds the thread on the scan, measures its axis, diameter and pit
 
 | | |
 |---|---|
-| **Version** | 1.0.2 |
+| **Version** | 1.0.3 |
 | **Blender** | 4.2 LTS and newer (developed and tested on Windows with Blender 5.1; Linux and macOS are not tested) |
 | **Dependencies** | None. Uses only modules bundled with Blender |
 | **License** | GPL-3.0-or-later |
