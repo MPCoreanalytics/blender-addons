@@ -17,6 +17,7 @@ All the tools target the same job: you have a raw scan, and you need geometry yo
 |---|---|---|
 | **[MeshPharmacy](meshpharmacy/)** | Cleans, repairs, reduces and quad-remeshes dense scan meshes. Removes hidden interior shells, fills holes, reports whether the result is watertight. Always works on a copy. | v1.4 |
 | **[ThreadPharmacy](threadpharmacy/)** | Finds threads on a scan automatically (or from your clicks), measures axis, size and pitch, and rebuilds them as clean ISO, inch, hydraulic or pipe threads. Print-fit option for 3D printing. Always works on a copy. | v1.0.3 |
+| **[MeshUnderskin](meshunderskin/)** | Look under the skin of a mesh: a live section with a wall-thickness heatmap and histogram, finds thin walls, and can add material on a copy. A visual guide, not a simulation. | v1.6.3 |
 
 <p align="center">
   <a href="meshpharmacy/"><img src="meshpharmacy/images/interior-walls.png" width="100%" alt="MeshPharmacy: interior shells removed"></a>
@@ -44,6 +45,11 @@ All the tools target the same job: you have a raw scan, and you need geometry yo
   <br><sub>ThreadPharmacy · automatic search: 11 threads found on a 7.7M-triangle scan, each with a confidence level.</sub>
 </p>
 
+<p align="center">
+  <a href="meshunderskin/"><img src="meshunderskin/images/meshunderskin-section-histogram.png" width="60%" alt="MeshUnderskin: section through a part colored by wall thickness, with histogram"></a>
+  <br><sub>MeshUnderskin · a section of the part colored by wall thickness, with a histogram: thin walls show up in red.</sub>
+</p>
+
 More tools for the same pipeline (alignment, measurement, scan-to-CAD helpers) will be added here as they are released.
 
 ---
@@ -55,6 +61,8 @@ More tools for the same pipeline (alignment, measurement, scan-to-CAD helpers) w
                                   clean · repair      rebuild threads
                                   reduce · remesh     on a clean mesh
 ```
+
+[MeshUnderskin](meshunderskin/) sits next to this chain: run it on a repaired mesh to see where the walls are too thin before you print.
 
 Each add-on does one job well and leaves your original object untouched. They follow the same rules:
 
