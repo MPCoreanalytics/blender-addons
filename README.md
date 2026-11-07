@@ -17,7 +17,7 @@ All the tools target the same job: you have a raw scan, and you need geometry yo
 |---|---|---|
 | **[MeshPharmacy](meshpharmacy/)** | Cleans, repairs, reduces and quad-remeshes dense scan meshes. Removes hidden interior shells, fills holes, reports whether the result is watertight. Always works on a copy. | v1.4 |
 | **[ThreadPharmacy](threadpharmacy/)** | Finds threads on a scan automatically (or from your clicks), measures axis, size and pitch, and rebuilds them as clean ISO, inch, hydraulic or pipe threads. Print-fit option for 3D printing. Always works on a copy. | v1.0.3 |
-| **[MeshUnderskin](meshunderskin/)** | Look under the skin of a mesh: a live section with a wall-thickness heatmap and histogram, finds thin walls, and can add material on a copy. A visual guide, not a simulation. | v1.6.3 |
+| **[MeshUnderskin](meshunderskin/)** | Look under the skin of a mesh: a live section with a wall-thickness heatmap and histogram, finds thin walls, and can add material on a copy. A visual guide, not a simulation. [Get it on Gumroad](https://mpcoreanalytics.gumroad.com/l/MeshUnderskin). | v1.6.3 |
 
 <p align="center">
   <a href="meshpharmacy/"><img src="meshpharmacy/images/interior-walls.png" width="100%" alt="MeshPharmacy: interior shells removed"></a>

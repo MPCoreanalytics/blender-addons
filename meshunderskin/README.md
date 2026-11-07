@@ -10,12 +10,15 @@
 
 Thin walls are easy to miss on a scan or a model: the outside looks fine, and the problem sits in the middle of the wall. MeshUnderskin cuts the part with a plane you can move and tilt, colors the cut by wall thickness, and shows a histogram of the result. Then it measures the whole object, selects the thin faces and, if you want, adds material on a copy.
 
+**[Download the product guide (PDF, 10 pages)](docs/MeshUnderskin_Product_Guide.pdf)** · **[Get MeshUnderskin on Gumroad](https://mpcoreanalytics.gumroad.com/l/MeshUnderskin)**
+
 | | |
 |---|---|
 | **Version** | 1.6.3 |
 | **Blender** | 4.2 LTS and newer (developed and tested on Windows with Blender 5.2) |
 | **Dependencies** | None. Uses only modules bundled with Blender |
 | **License** | GPL-3.0-or-later |
+| **Get it** | [Gumroad](https://mpcoreanalytics.gumroad.com/l/MeshUnderskin) |
 | **Family** | Works well after [MeshPharmacy](../meshpharmacy/): repair the scan first, then measure it |
 
 ---
