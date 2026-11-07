@@ -8,7 +8,7 @@
 
 Raw scans are heavy and messy: millions of triangles, duplicate vertices, floating debris, shells hidden inside the part, open holes, broken topology. MeshPharmacy fixes all of that from one sidebar panel and tells you, in numbers, what it changed.
 
-**[Download the product guide (PDF, 6 pages)](docs/MeshPharmacy_Product_Guide.pdf)**
+**[Download the product guide (PDF, 6 pages)](docs/MeshPharmacy_Product_Guide.pdf)** · **[Get MeshPharmacy on Gumroad](https://mpcoreanalytics.gumroad.com/l/meshpharmacy)**
 
 | | |
 |---|---|
@@ -16,6 +16,7 @@ Raw scans are heavy and messy: millions of triangles, duplicate vertices, floati
 | **Blender** | 4.2 LTS and newer |
 | **Dependencies** | None. Uses only modules bundled with Blender |
 | **License** | GPL-3.0-or-later |
+| **Get it** | [Gumroad](https://mpcoreanalytics.gumroad.com/l/meshpharmacy) |
 
 ---
 
