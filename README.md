@@ -5,7 +5,7 @@
 # Blender add-ons for 3D scans, meshes and reverse engineering
 
 This repository is the public home of my Blender add-ons. It holds the product pages, user guides and release notes.
-The add-ons are distributed through [Superhive (formerly Blender Market)](https://superhivemarket.com). The source code ships with every purchase under the GPL, as Blender add-ons require.
+The add-ons are distributed through Gumroad.com. The source code ships with every purchase under the GPL, as Blender add-ons require.
 
 All the tools target the same job: you have a raw scan, and you need geometry you can **3D print, measure, boolean or model on**, without leaving Blender.
 
