@@ -18,6 +18,7 @@ All the tools target the same job: you have a raw scan, and you need geometry yo
 | **[MeshPharmacy](meshpharmacy/)** | Cleans, repairs, reduces and quad-remeshes dense scan meshes. Removes hidden interior shells, fills holes, reports whether the result is watertight. Always works on a copy. [Get it on Gumroad](https://mpcoreanalytics.gumroad.com/l/meshpharmacy). | v1.4 |
 | **[ThreadPharmacy](threadpharmacy/)** | Finds threads on a scan automatically (or from your clicks), measures axis, size and pitch, and rebuilds them as clean ISO, inch, hydraulic or pipe threads. Print-fit option for 3D printing. Always works on a copy. [Get it on Gumroad](https://mpcoreanalytics.gumroad.com/l/threadpharmacy). | v1.0.3 |
 | **[MeshUnderskin](meshunderskin/)** | Look under the skin of a mesh: a live section with a wall-thickness heatmap and histogram, finds thin walls, and can add material on a copy. A visual guide, not a simulation. [Get it on Gumroad](https://mpcoreanalytics.gumroad.com/l/MeshUnderskin). | v1.6.3 |
+| **[GearPharmacy](gearpharmacy/)** | Click a spur gear in a scan and it tells you what gear it is: tooth count, module or DP, the closest standard size, with a confidence for each. Rebuilds it as a clean, watertight gear with your choice of bore and hub, ready to 3D print. Always works on a copy. [Get it on Gumroad](https://mpcoreanalytics.gumroad.com). | v0.8.0 |
 
 <p align="center">
   <a href="meshpharmacy/"><img src="meshpharmacy/images/interior-walls.png" width="100%" alt="MeshPharmacy: interior shells removed"></a>
@@ -50,6 +51,11 @@ All the tools target the same job: you have a raw scan, and you need geometry yo
   <br><sub>MeshUnderskin · a section of the part colored by wall thickness, with a histogram: thin walls show up in red.</sub>
 </p>
 
+<p align="center">
+  <a href="gearpharmacy/"><img src="gearpharmacy/images/gearpharmacy-flywheel.png" width="100%" alt="GearPharmacy: a dual-mass flywheel ring gear identified from a scan and rebuilt"></a>
+  <br><sub>GearPharmacy · a dual-mass flywheel scan: 132 teeth found, closest standard DP 12, rebuilt as a clean gear that sits on the scan.</sub>
+</p>
+
 More tools for the same pipeline (alignment, measurement, scan-to-CAD helpers) will be added here as they are released.
 
 ---
@@ -63,6 +69,8 @@ More tools for the same pipeline (alignment, measurement, scan-to-CAD helpers) w
 ```
 
 [MeshUnderskin](meshunderskin/) sits next to this chain: run it on a repaired mesh to see where the walls are too thin before you print.
+
+[GearPharmacy](gearpharmacy/) does for gears what ThreadPharmacy does for threads: it reads a worn gear from the scan and rebuilds it clean.
 
 Each add-on does one job well and leaves your original object untouched. They follow the same rules:
 
